@@ -1,4 +1,69 @@
 *{
-    background-color: black;
-    color: white;
+    padding: 0;
+    margin: 0;
 }
+.bg-img {
+    background-image: url("./assets/header.jpg");
+    min-height: 380px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    font-size: 60px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg-img button{
+    margin-top: 10px;
+    background-color: #F9EF23;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .sobre{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 480px;
+  }
+  .sobre h1{
+    font-size: 50px;
+    color: #F9EF23;
+  }
+  .sobre p{
+    width: 300px;
+  }
+
+  .sobre img{
+    margin-top: 15px;
+    width: 300px;
+  }
+
+  .servicos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+  }
+
+  .servicos h1{
+    font-size: 50px;
+    color: #F9EF23;
+  }
+  .servicos p{
+    color: white;
+  }
