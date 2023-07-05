@@ -1,6 +1,7 @@
-const rankig = [11,23,31,4]
+const btn = document.getElementById("btn");
 
-for(var i; i > 10; i++){
-    console.log(rankig[i])
+function redirecionar(){
+    window.location.href = "pages/system.html"
 }
 
+btn.onclick = redirecionar
