@@ -3,7 +3,7 @@
     margin: 0;
 }
 .bg-img {
-    background-image: url("./assets/header.jpg");
+    background-image: url("./assets/logo.jpg");
     min-height: 380px;
     height: 600px;
     background-position: center;
@@ -18,10 +18,10 @@
     justify-content: center;
     align-items: center;
   }
-
   .bg-img button{
-    margin-top: 10px;
-    background-color: #F9EF23;
+    margin-top:  auto;
+    margin-bottom: 15px;
+    background-color: #9B9B9B;
     border: none;
     color: black;
     padding: 15px 32px;
@@ -41,16 +41,17 @@
     height: 480px;
   }
   .sobre h1{
-    font-size: 50px;
-    color: #F9EF23;
+    font-size: 55px;
+    color: #fff;
   }
   .sobre p{
-    width: 300px;
+    width: 480px;
+    font-size: 20px;
   }
 
   .sobre img{
     margin-top: 15px;
-    width: 300px;
+    width: 480px;
   }
 
   .servicos{
@@ -63,7 +64,7 @@
 
   .servicos h1{
     font-size: 50px;
-    color: #F9EF23;
+    color: #fff;
   }
   .servicos p{
     color: white;
