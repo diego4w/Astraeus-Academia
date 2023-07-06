@@ -3,7 +3,7 @@ A Barbeshop é uma barbearia excepcionalmente projetada, que oferece serviços d
 
 # ✒️ Descrição
 
-Sistema e lading page de agendamento de hoario de uma berbearia
+Sistema e Landing page de agendamento de hoario de uma berbearia
 
 ## 🛠️ Construído com
 HTML 
@@ -11,6 +11,10 @@ HTML
 CSS
  
 Javascript
+
+## 💻 Pré visualizar
+
+https://barber-shop-khaki.vercel.app/index.html
 
 
 ---
