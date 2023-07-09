@@ -55,14 +55,28 @@
   }
 
   .servicos{
+    color: white;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    height: 480px;
+    height: 380px;
   }
 
   .servicos h1{
     font-size: 50px;
     color: #fff;
+  }
+
+  .f{
+    margin-top: 50px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .f li a{
+    list-style: none;
+    text-decoration: none;
   }
