@@ -81,16 +81,49 @@
     text-decoration: none;
   }
 
-  @media (max-width: 768px) {
-    .bg-img {
-      height: 400px;
-      font-size: 40px;
-    }
+ 
+
+/* CSS Responsivo */
+
+@media (max-width: 980px) {
+  .bg-img {
+    min-height: 250px;
+    height: 400px;
+    font-size: 40px;
   }
-  
-  @media (max-width: 480px) {
-    .bg-img {
-      height: 300px;
-      font-size: 30px;
-    }
+
+  .sobre {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
   }
+
+  .sobre h1 {
+    font-size: 40px;
+  }
+
+  .sobre p {
+    width: 100%;
+  }
+
+  .sobre img {
+    width: 80%;
+    height: auto;
+  }
+
+  .servicos {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .servicos h1 {
+    font-size: 40px;
+  }
+
+  .f {
+    flex-direction: column;
+    margin-top: 30px;
+    text-align: center;
+  }
+}
