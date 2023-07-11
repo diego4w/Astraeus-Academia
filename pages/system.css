@@ -34,6 +34,7 @@
   
   .form-group {
     margin-bottom: 20px;
+    color: #fff;
   }
   
   .form-group label {
@@ -44,13 +45,16 @@
   
   .form-group input[type="text"],
   .form-group input[type="email"],
-  .form-group input[type="tel"],
-  .form-group input[type="time"] {
+  .form-group input[type="tel"] {
     color: #fff;
     width: 90%;
     padding: 10px;
     border: 1px solid #fff;
     border-radius: 4px;
+  }
+
+  .form-group input[type="checkbox"]{
+    color: #fff;
   }
   
   .form-group input[type="submit"] {
