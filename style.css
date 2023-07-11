@@ -80,3 +80,17 @@
     list-style: none;
     text-decoration: none;
   }
+
+  @media (max-width: 768px) {
+    .bg-img {
+      height: 400px;
+      font-size: 40px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .bg-img {
+      height: 300px;
+      font-size: 30px;
+    }
+  }
