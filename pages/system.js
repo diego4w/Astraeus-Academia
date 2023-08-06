@@ -54,3 +54,10 @@ function renderBarbeiros(barbeiros) {
 // Chamada da função de renderização
 renderBarbeiros(arr);
 
+const back = document.getElementById("back")
+
+function voltar(){
+    window.location.href = "../index.html"
+}
+
+back.onclick = voltar
