@@ -71,9 +71,10 @@ function agend(nomeBarbeiro) {
     myCheckbox.checked = false; // Desmarca o checkbox após agendar
 
     // Exibe o modal com a mensagem de sucesso e a hora agendada
-    showModal("Agendamento realizado com sucesso!", `Horário agendado: ${horarioAgendado}`, `com o Barbeiro ${nomeBarbeiro}`);
+    showModal("Agendamento realizado com sucesso! 🔥🤘", `Horário agendado: ${horarioAgendado}`, `com o Barbeiro ${nomeBarbeiro}`);
   } else {
     console.log("Nenhum horário selecionado.");
+    showModal("Nenhum horário selecionado.", "Marque um horario com um dos nossos barbeiros", "🔥🤘")
   }
 }
 
@@ -84,7 +85,7 @@ function showModal(title, message, message2) {
   modal.innerHTML = `
     <div class="modal-content">
       <span class="close">&times;</span>
-      <h2>${title} 🔥🤘</h2>
+      <h2>${title}</h2>
       <p>${message}</p>
       <p>${message2}</p>
     </div>
