@@ -20,4 +20,4 @@ https://barber-shop-khaki.vercel.app/index.html
 ---
 feito com ❤️ por [Diego Francisco](https://gist.github.com/diego4w) 😊
 
-nova branch de alteracoes teste
+nova branch de alteracoes teste <3>
